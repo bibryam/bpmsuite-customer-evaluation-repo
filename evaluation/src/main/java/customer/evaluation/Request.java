@@ -15,10 +15,12 @@ public class Request implements Serializable {
 	private String invalidReason;
 	private boolean canceled;
 
+	public Request() {
+	}
 	public Request(String id) {
 		this.id = id;
 	}
-	
+
 	public void setId(String id) {
 		this.id = id;
 	}
